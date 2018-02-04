@@ -1,9 +1,9 @@
-Prerequisites
+Prerequisites:
 MongoDB
 
 You can download the community edtion at https://www.mongodb.com/download-center#community
 
-Installation
+Installation =>
 Please clone this repo to your machine and run : npm install
 
 To run test: npm test
