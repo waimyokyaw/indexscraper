@@ -18,8 +18,8 @@ describe('test-scraper', function() {
         expect(response.status).to.equal('ok');
         expect(mockRes.value).to.equal('ok');
         expect(response.length).to.equal(6);
-        expect(response[0].stockId).to.equal("stock0");
-        expect(response[0].stockName).to.equal("NASDAQ");
+        expect(response[0].indexId).to.equal("stock0");
+        expect(response[0].indexName).to.equal("NASDAQ");
       });
     });
   });
