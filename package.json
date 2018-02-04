@@ -4,6 +4,7 @@
   "description": "nasdaq index scraper",
   "main": "server.js",
   "scripts": {
+    "start": "gulp",
     "test": "gulp test"
   },
   "repository": {
@@ -12,7 +13,7 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
+  "license": "",
   "homepage": "https://bitbucket.org/waimyokyaw/indexscraper#readme",
   "dependencies": {
     "axios": "^0.17.1",
