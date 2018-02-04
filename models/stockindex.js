@@ -1,7 +1,7 @@
 const mongoose = require('mongoose');
 var Schema = mongoose.Schema;
 
-var indexInfoSchema = new Schema({
+var stockIndexSchema = new Schema({
   indexId: String,
   netChange: String,
   indexName: String,
@@ -9,4 +9,4 @@ var indexInfoSchema = new Schema({
   timeStamp : Number
 });
 
-module.exports.indexInfoSchema = indexInfoSchema;
+module.exports.stockIndexSchema = stockIndexSchema;
