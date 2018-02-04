@@ -30,7 +30,6 @@ exports.scrapeStockIndexList = function (req, res, callback) {
         })
         .end()
         .then(function (result) {
-            console.log('scraper =>> ', result);
             res.send(result);
             callback({ status:'ok', data: result });
         })
