@@ -1,5 +1,5 @@
-var config = require('./config');
-var dataHelper = require('./helper/datahelper');
+var config = require('../helpers/config/app-config');
+var dataHelper = require('../helpers/datahelper');
 var express = require('express');
 var server = express();
 var axios = require('axios');

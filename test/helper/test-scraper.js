@@ -1,7 +1,7 @@
 var chai = require('chai');
 var assert = chai.assert;
 var expect = chai.expect;
-var scraper = require('../../helper/scraper');
+var scraper = require('../../helpers/scraper');
 
 describe('test-scraper', function() {
   

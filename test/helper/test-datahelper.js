@@ -1,7 +1,7 @@
 var chai = require('chai');
 var expect = chai.expect;
 
-var datahelper = require('../../helper/datahelper');
+var datahelper = require('../../helpers/datahelper');
 
 describe('Test datahelper module', function() {
 	describe('datahelper => populateDummyStockIndex', function() {

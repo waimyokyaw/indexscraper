@@ -1,6 +1,6 @@
-var config = require('./config');
-var apiRouter = require('./controller');
-var serviceRouter = require('./service');
+var config = require('./helpers/config/app-config');
+var apiRouter = require('./controllers');
+var serviceRouter = require('./services/server-service');
 var express = require('express');
 var server = express();
 

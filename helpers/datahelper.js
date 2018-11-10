@@ -1,4 +1,4 @@
-const config = require('../config');
+const config = require('./config/app-config');
 const mongoose = require('mongoose');
 var stockIndexModel = require('../models/stockindex');
 
